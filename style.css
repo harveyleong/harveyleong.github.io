@@ -1,0 +1,43 @@
+/******** Layout **********/
+
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #dddddd;
+	color: #333333;
+}
+
+.container {
+	margin: auto;
+	padding: 20px 0;
+	width: 720px;
+}
+
+.module {
+	width: 640px;
+	background: #ffffff;
+	margin: 0 auto 10px;
+	padding: 20px 40px;
+	border-radius: 9px;
+	box-shadow: 0 5px 5px #333333;
+}
+
+.article-links p {
+	margin: 0;
+	padding: 0;
+}
+
+/******** Typograph *******/
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+	text-align: center;
+}
