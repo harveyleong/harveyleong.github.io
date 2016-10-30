@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 开发一个漫画下载器(爬虫)
+tags: python 爬虫
 ---
 
-#开发一个漫画下载器(爬虫)
+# 开发一个漫画下载器(爬虫)
 
 ## 目标
 
@@ -74,8 +75,8 @@ title: 开发一个漫画下载器(爬虫)
 >>> json_text = re.findall("mReader\.initData.*", html)[0]
 >>> json_text = json_text.split('{')[1].split('}')[0]
 >>> picture_addrs = json.loads('{' + json_text + '}')["page_url"]
-</code>>
-</pre>>
+</code>
+</pre>
 
 这样我们就获得了一个包含所有图片地址的列表了。
 
@@ -99,8 +100,8 @@ title: 开发一个漫画下载器(爬虫)
 >>> with open("1.jpg", "wb") as f:
 ...     f.write(picture)
 >>>
-</code>>
-</pre>>
+</code>
+</pre>
 
 解释一下，User-Agent和Referer两项都是可以改的，只要符合要求就可以了，初学者直接使用上面的代码就可以了，向了解更多可以去Google一下这两项的作用。
 
