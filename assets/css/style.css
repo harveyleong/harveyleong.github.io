@@ -37,7 +37,19 @@ a {
 	text-decoration: none;
 }
 
+.header-links a {
+	color: #4169e1;
+}
+
+
 img {
 	border: 0;
-	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+pre {
+	border: 1px solid;
+	border-radius: 3px;
+	padding: 0 2px;
 }
